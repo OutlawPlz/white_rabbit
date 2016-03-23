@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: supporter
+label: Supporter
+weight: 2
+is_admin: false
+permissions:
+  - 'administer comments'
+  - 'edit own comments'
+  - 'access user contact forms'
+  - 'access contextual links'
+  - 'use advanced search'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'use text format basic_html'
+  - 'use text format full_html'

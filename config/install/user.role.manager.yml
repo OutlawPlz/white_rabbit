@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies: {  }
+id: manager
+label: Manager
+weight: 4
+is_admin: false
+permissions:
+  - 'administer comments'
+  - 'edit own comments'
+  - 'access user contact forms'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access content overview'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'delete all revisions'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'use advanced search'
+  - 'access site reports'
+  - 'access toolbar'
+  - 'administer users'
+  - 'access user profiles'
+  - 'use text format basic_html'
+  - 'use text format full_html'
