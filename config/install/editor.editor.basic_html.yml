@@ -12,14 +12,27 @@ settings:
     rows:
       -
         -
+          name: Clipboard
+          items:
+            - Cut
+            - Copy
+            - Paste
+            - PasteText
+            - PasteFromWord
+            - '-'
+            - Undo
+            - Redo
+        -
           name: Formatting
           items:
             - Bold
             - Italic
+            - '-'
+            - RemoveFormat
         -
           name: Linking
           items:
-            - DrupalLink
+            - Linkit
             - DrupalUnlink
         -
           name: Lists
@@ -30,7 +43,6 @@ settings:
           name: Media
           items:
             - Blockquote
-            - DrupalImage
         -
           name: 'Block Formatting'
           items:
@@ -42,6 +54,12 @@ settings:
   plugins:
     stylescombo:
       styles: ''
+    templates:
+      templates: default
+      templates_files: ''
+      templates_replaceContent: 1
+    linkit:
+      linkit_profile: editor_default
 image_upload:
   status: true
   scheme: public

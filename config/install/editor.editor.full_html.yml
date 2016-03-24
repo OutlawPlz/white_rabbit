@@ -12,6 +12,41 @@ settings:
     rows:
       -
         -
+          name: Document
+          items:
+            - Source
+        -
+          name: Clipboard
+          items:
+            - Cut
+            - Copy
+            - Paste
+            - PasteText
+            - PasteFromWord
+            - '-'
+            - Undo
+            - Redo
+        -
+          name: Linking
+          items:
+            - Linkit
+            - DrupalUnlink
+        -
+          name: Insert
+          items:
+            - Blockquote
+            - DrupalImage
+            - Table
+            - HorizontalRule
+            - SpecialChar
+            - Templates
+        -
+          name: Tools
+          items:
+            - ShowBlocks
+            - Maximize
+      -
+        -
           name: Formatting
           items:
             - Bold
@@ -22,34 +57,35 @@ settings:
             - '-'
             - RemoveFormat
         -
-          name: Linking
+          name: Paragraph
           items:
-            - DrupalLink
-            - DrupalUnlink
-        -
-          name: Lists
-          items:
-            - BulletedList
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - '-'
             - NumberedList
-        -
-          name: Media
-          items:
-            - Blockquote
-            - DrupalImage
-            - Table
-            - HorizontalRule
+            - BulletedList
+            - '-'
+            - Indent
+            - Outdent
         -
           name: 'Block Formatting'
           items:
             - Format
         -
-          name: Tools
+          name: Styles
           items:
-            - ShowBlocks
-            - Source
+            - Styles
   plugins:
     stylescombo:
       styles: ''
+    templates:
+      templates: default
+      templates_files: /modules/ckeditor_templates/js/plugins/templates/templates/default.js
+      templates_replaceContent: 1
+    linkit:
+      linkit_profile: editor_default
 image_upload:
   status: true
   scheme: public

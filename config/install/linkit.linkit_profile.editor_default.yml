@@ -1,0 +1,50 @@
+uuid: c162bea9-48b9-4f64-b503-3f6c1d80fae8
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+    - taxonomy
+id: editor_default
+label: 'Editor Default'
+description: 'Default editors configuration.'
+attributes: {  }
+matchers:
+  42e06696-807f-4da6-b64a-744f2dd2407a:
+    uuid: 42e06696-807f-4da6-b64a-744f2dd2407a
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: 'id: [node:nid] - lang: [node:langcode]'
+      bundles: {  }
+      group_by_bundle: true
+      include_unpublished: false
+  837436a0-4f6f-4843-bc00-a93bf328689f:
+    uuid: 837436a0-4f6f-4843-bc00-a93bf328689f
+    id: 'entity:file'
+    weight: 0
+    settings:
+      result_description: 'fid: [file:fid] - size: [file:size]'
+      bundles: null
+      group_by_bundle: null
+      images:
+        show_dimensions: false
+        show_thumbnail: false
+        thumbnail_image_style: null
+  42835022-992b-4fa2-af00-ce2c5bf712fa:
+    uuid: 42835022-992b-4fa2-af00-ce2c5bf712fa
+    id: 'entity:comment'
+    weight: 0
+    settings:
+      result_description: 'cid: [comment:cid] - auth: [comment:author]'
+      bundles: {  }
+      group_by_bundle: true
+  7c277a84-d47d-4d1d-ab4b-7509de360ec6:
+    uuid: 7c277a84-d47d-4d1d-ab4b-7509de360ec6
+    id: 'entity:taxonomy_term'
+    weight: 0
+    settings:
+      result_description: 'tid: [term:tid] - voc: [term:vocabulary]'
+      bundles: {  }
+      group_by_bundle: true
