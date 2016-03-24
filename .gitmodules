@@ -1,0 +1,3 @@
+[submodule "themes/zero"]
+	path = themes/zero
+	url = https://github.com/OutlawPlz/zero
