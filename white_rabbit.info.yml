@@ -24,6 +24,7 @@ dependencies:
   - quickedit
   - editor
   - help
+  - honeypot
   - image
   - linkit
   - menu_ui

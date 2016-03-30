@@ -18,3 +18,6 @@
 	path = modules/ctools
 	url = https://git.drupal.org/project/ctools.git
 	branch = 8.x-3.x
+[submodule "modules/honeypot"]
+	path = modules/honeypot
+	url = https://git.drupal.org/project/honeypot.git
