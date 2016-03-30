@@ -25,3 +25,8 @@ permissions:
   - 'access user profiles'
   - 'use text format basic_html'
   - 'use text format full_html'
+  - 'create url aliases'
+  - 'access in-place editing'
+  - 'access site in maintenance mode'
+  - 'delete terms in tags'
+  - 'edit terms in tags'
