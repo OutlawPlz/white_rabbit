@@ -4,3 +4,17 @@
 [submodule "modules/ckeditor_templates"]
 	path = modules/ckeditor_templates
 	url = https://github.com/OutlawPlz/ckeditor_templates
+[submodule "modules/pathauto"]
+	path = modules/pathauto
+	url = https://git.drupal.org/project/pathauto.git
+[submodule "modules/linkit"]
+	path = modules/linkit
+	url = https://git.drupal.org/project/linkit.git
+[submodule "modules/token"]
+	path = modules/token
+	url = https://git.drupal.org/project/token.git
+	branch = 8.x-1.x
+[submodule "modules/ctools"]
+	path = modules/ctools
+	url = https://git.drupal.org/project/ctools.git
+	branch = 8.x-3.x

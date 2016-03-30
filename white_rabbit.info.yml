@@ -17,6 +17,7 @@ dependencies:
   - comment
   - contextual
   - contact
+  - ctools
   - menu_link_content
   - datetime
   - block_content
@@ -28,6 +29,7 @@ dependencies:
   - menu_ui
   - options
   - path
+  - pathauto
   - page_cache
   - dynamic_page_cache
   - taxonomy
@@ -40,6 +42,7 @@ dependencies:
   - rdf
   - views
   - views_ui
+  - token
   - tour
   - automated_cron
 
