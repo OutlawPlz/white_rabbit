@@ -21,3 +21,6 @@
 [submodule "modules/honeypot"]
 	path = modules/honeypot
 	url = https://git.drupal.org/project/honeypot.git
+[submodule "modules/devel"]
+	path = modules/devel
+	url = https://git.drupal.org/project/devel.git
