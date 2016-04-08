@@ -24,3 +24,7 @@
 [submodule "modules/devel"]
 	path = modules/devel
 	url = https://git.drupal.org/project/devel.git
+[submodule "modules/inline_entity_form"]
+	path = modules/inline_entity_form
+	url = https://git.drupal.org/project/inline_entity_form.git
+	branch = 8.x-1.x
