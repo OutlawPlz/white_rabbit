@@ -1,5 +1,5 @@
 name: 'White Rabbit'
-description: 'Install with commonly used features pre-configured.'
+description: 'A starting point to build amazing websites.'
 
 type: profile
 version: VERSION
@@ -19,6 +19,7 @@ dependencies:
   - contact
   - ctools
   - menu_link_content
+  - dependent_content
   - datetime
   - block_content
   - quickedit
@@ -26,6 +27,7 @@ dependencies:
   - help
   - honeypot
   - image
+  - inline_entity_form
   - linkit
   - menu_ui
   - options
