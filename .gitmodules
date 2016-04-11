@@ -30,4 +30,4 @@
 	branch = 8.x-1.x
 [submodule "modules/dependent_content"]
 	path = modules/dependent_content
-	url = git@github.com:OutlawPlz/dependent_content.git
+	url = https://github.com/OutlawPlz/dependent_content.git
