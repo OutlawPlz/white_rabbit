@@ -1,0 +1,29 @@
+{
+  "name": "outlawplz/white_rabbit",
+  "description": "A starting point to build amazing websites.",
+  "type": "drupal-profile",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Matteo Palazzo",
+      "email": "outlaw.plz@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "drupal/honeypot": "^1.23",
+    "drupal/ctools": "3.x-dev",
+    "drupal/devel": "1.x-dev",
+    "drupal/inline_entity_form": "1.x-dev",
+    "drupal/linkit": "^4.1",
+    "drupal/pathauto": "1.x-dev",
+    "drupal/token": "1.x-dev"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  }
+}
