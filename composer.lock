@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9e9b31b255e0d082f06b49fe2d92137",
-    "content-hash": "efb9489717f456e895dd02925ea40b76",
+    "hash": "dc19c4b3c7d4db78652c8172fa6f025c",
+    "content-hash": "cc03e65da6ab0c1adf54f0b4d61ae640",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -511,6 +511,55 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "drupal/colorbutton",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/colorbutton",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/colorbutton-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "8632c50b840ef6f0325e85b0a1eb5d6448c8976e"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/panelbutton": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1474034939"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Quillen (kevinquillen)",
+                    "homepage": "https://www.drupal.org/u/kevinquillen",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Adds the Color Button plugin to CKEditor.",
+            "homepage": "http://drupal.org/project/colorbutton",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/colorbutton",
+                "issues": "http://drupal.org/project/issues/colorbutton"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "8.2.1",
             "source": {
@@ -998,6 +1047,54 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/linkit",
                 "issues": "http://drupal.org/project/linkit"
+            }
+        },
+        {
+            "name": "drupal/panelbutton",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/panelbutton",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/panelbutton-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "1998dbfa26ddb0245b37715753006a106716fae7"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1474037639"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Quillen (kevinquillen)",
+                    "homepage": "https://www.drupal.org/u/kevinquillen",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Adds the Panel Button plugin to CKEditor. This plugin is a utility plugin that is required by certain user-facing CKEditor plugins.",
+            "homepage": "http://drupal.org/project/panelbutton",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/panelbutton",
+                "issues": "http://drupal.org/project/issues/panelbutton"
             }
         },
         {
@@ -1502,6 +1599,90 @@
                 "xml"
             ],
             "time": "2016-09-22 11:01:11"
+        },
+        {
+            "name": "outlawplz/ckeditor_templates",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutlawPlz/ckeditor_templates.git",
+                "reference": "6840731f1889b1378e1e852d0c5712612ff0c190"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutlawPlz/ckeditor_templates/zipball/6840731f1889b1378e1e852d0c5712612ff0c190",
+                "reference": "6840731f1889b1378e1e852d0c5712612ff0c190",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Palazzo",
+                    "email": "outlaw.plz@gmail.com"
+                }
+            ],
+            "description": "This plugin provides a dialog to offer predefined content templates - with page layout, text formatting and styles.",
+            "time": "2016-10-20 15:51:00"
+        },
+        {
+            "name": "outlawplz/dependent_content",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutlawPlz/dependent_content.git",
+                "reference": "48163a55cd38eb584ddfb823ba5702bfa2f24881"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutlawPlz/dependent_content/zipball/48163a55cd38eb584ddfb823ba5702bfa2f24881",
+                "reference": "48163a55cd38eb584ddfb823ba5702bfa2f24881",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Palazzo",
+                    "email": "outlaw.plz@gmail.com"
+                }
+            ],
+            "description": "Dependent Content is a custom entity representing contents which depend upon other entities to be displayed.",
+            "time": "2016-10-20 15:43:16"
+        },
+        {
+            "name": "outlawplz/zero",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutlawPlz/zero.git",
+                "reference": "fa4d309f46aee18823d85b8ac9b69ee840602502"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutlawPlz/zero/zipball/fa4d309f46aee18823d85b8ac9b69ee840602502",
+                "reference": "fa4d309f46aee18823d85b8ac9b69ee840602502",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Palazzo",
+                    "email": "outlaw.plz@gmail.com"
+                }
+            ],
+            "description": "A flexible base theme with many regions and a responsive, mobile-first layout. It uses Gulp.js, Singularity.gs, Breakpoint-sass and many other amazing tools.",
+            "time": "2016-10-25 08:33:27"
         },
         {
             "name": "paragonie/random_compat",
@@ -3170,7 +3351,10 @@
         "drupal/devel": 20,
         "drupal/inline_entity_form": 20,
         "drupal/pathauto": 20,
-        "drupal/token": 20
+        "drupal/token": 20,
+        "outlawplz/dependent_content": 20,
+        "outlawplz/ckeditor_templates": 20,
+        "outlawplz/zero": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

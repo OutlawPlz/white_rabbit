@@ -18,7 +18,12 @@
     "drupal/inline_entity_form": "1.x-dev",
     "drupal/linkit": "^4.1",
     "drupal/pathauto": "1.x-dev",
-    "drupal/token": "1.x-dev"
+    "drupal/token": "1.x-dev",
+    "outlawplz/dependent_content": "dev-master",
+    "outlawplz/ckeditor_templates": "dev-master",
+    "outlawplz/zero": "dev-master",
+    "drupal/colorbutton": "^1.0",
+    "drupal/panelbutton": "^1.0"
   },
   "repositories": {
     "drupal": {
