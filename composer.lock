@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dc19c4b3c7d4db78652c8172fa6f025c",
-    "content-hash": "cc03e65da6ab0c1adf54f0b4d61ae640",
+    "hash": "65ca5f79a5c2a329e44ce996af08b8d8",
+    "content-hash": "aa20e0dd2d936724f0b6280675d841df",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -895,6 +895,58 @@
             "time": "2016-10-01 14:05:48"
         },
         {
+            "name": "drupal/google_analytics",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/google_analytics",
+                "reference": "8.x-2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "9b5c76802ca28d5072bb9bb552bbfeb660b0734a"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/php": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1470845408"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "hass",
+                    "homepage": "https://www.drupal.org/u/hass"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/49388/committers"
+                }
+            ],
+            "description": "Allows your site to be tracked by Google Analytics by adding a Javascript tracking code to every page.",
+            "homepage": "https://www.drupal.org/project/google_analytics",
+            "support": {
+                "source": "http://git.drupal.org/project/google_analytics.git",
+                "issues": "https://www.drupal.org/project/issues/google_analytics"
+            }
+        },
+        {
             "name": "drupal/honeypot",
             "version": "1.23.0",
             "source": {
@@ -1050,6 +1102,57 @@
             }
         },
         {
+            "name": "drupal/menu_trail_by_path",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/menu_trail_by_path",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_trail_by_path-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "65124bd393c75e45fe07f1af0d784a9546faaea4"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1470059041"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SeriousMatters",
+                    "homepage": "https://www.drupal.org/user/290439"
+                },
+                {
+                    "name": "davy-r",
+                    "homepage": "https://www.drupal.org/user/3278771"
+                },
+                {
+                    "name": "redndahead",
+                    "homepage": "https://www.drupal.org/user/160320"
+                }
+            ],
+            "description": "Expand menus and set active-trail according to the current path.",
+            "homepage": "https://www.drupal.org/project/menu_trail_by_path",
+            "support": {
+                "source": "http://cgit.drupalcode.org/menu_trail_by_path"
+            }
+        },
+        {
             "name": "drupal/panelbutton",
             "version": "1.0.0",
             "source": {
@@ -1148,6 +1251,48 @@
                 "source": "http://cgit.drupalcode.org/pathauto"
             },
             "time": "2016-10-12 14:18:39"
+        },
+        {
+            "name": "drupal/redirect",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/redirect",
+                "reference": "d0f475946fd509e5067e9d1c30919567a9f66ce2"
+            },
+            "require": {
+                "drupal/core": "~8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2+1-dev",
+                    "datestamp": "1481914683"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                }
+            ],
+            "description": "Allows users to redirect from old URLs to new URLs.",
+            "homepage": "https://www.drupal.org/project/redirect",
+            "support": {
+                "source": "http://cgit.drupalcode.org/redirect"
+            },
+            "time": "2016-12-16 18:55:05"
         },
         {
             "name": "drupal/token",
@@ -1657,18 +1802,78 @@
             "time": "2016-10-20 15:43:16"
         },
         {
-            "name": "outlawplz/zero",
+            "name": "outlawplz/droppy",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/OutlawPlz/zero.git",
-                "reference": "fa4d309f46aee18823d85b8ac9b69ee840602502"
+                "url": "https://github.com/OutlawPlz/drupal_droppy.git",
+                "reference": "4b791fd5ff5b1ac15521b0f41f87eb0647db9648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/zero/zipball/fa4d309f46aee18823d85b8ac9b69ee840602502",
-                "reference": "fa4d309f46aee18823d85b8ac9b69ee840602502",
+                "url": "https://api.github.com/repos/OutlawPlz/drupal_droppy/zipball/4b791fd5ff5b1ac15521b0f41f87eb0647db9648",
+                "reference": "4b791fd5ff5b1ac15521b0f41f87eb0647db9648",
                 "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Palazzo",
+                    "email": "outlaw.plz@gmail.com"
+                }
+            ],
+            "description": "Provides Droppy library integration for Drupal.",
+            "time": "2017-01-16 11:43:29"
+        },
+        {
+            "name": "outlawplz/svg_icon",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutlawPlz/svg_icon.git",
+                "reference": "b6864d816800ae757d10b34b3222077415b09b8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutlawPlz/svg_icon/zipball/b6864d816800ae757d10b34b3222077415b09b8d",
+                "reference": "b6864d816800ae757d10b34b3222077415b09b8d",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Palazzo",
+                    "email": "outlaw.plz@gmail.com"
+                }
+            ],
+            "description": "Drupal 8 config entity representing an SVG sprite.",
+            "time": "2017-01-26 13:52:40"
+        },
+        {
+            "name": "outlawplz/zero",
+            "version": "v1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutlawPlz/zero.git",
+                "reference": "f0c4fa458399c22ef30c3b620181d66b36a7e483"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutlawPlz/zero/zipball/f0c4fa458399c22ef30c3b620181d66b36a7e483",
+                "reference": "f0c4fa458399c22ef30c3b620181d66b36a7e483",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/filesystem": "~2.8",
+                "symfony/finder": "~2.8"
             },
             "type": "drupal-theme",
             "notification-url": "https://packagist.org/downloads/",
@@ -1682,7 +1887,7 @@
                 }
             ],
             "description": "A flexible base theme with many regions and a responsive, mobile-first layout. It uses Gulp.js, Singularity.gs, Breakpoint-sass and many other amazing tools.",
-            "time": "2016-10-25 08:33:27"
+            "time": "2017-01-26 15:31:56"
         },
         {
             "name": "paragonie/random_compat",
@@ -2230,6 +2435,104 @@
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
             "time": "2016-07-28 16:56:28"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.8.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "5b77d49ab76e5b12743b359ef4b4a712e6f5360d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/5b77d49ab76e5b12743b359ef4b4a712e6f5360d",
+                "reference": "5b77d49ab76e5b12743b359ef4b4a712e6f5360d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-01-08 20:43:03"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v2.8.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "355fccac526522dc5fca8ecf0e62749a149f3b8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/355fccac526522dc5fca8ecf0e62749a149f3b8b",
+                "reference": "355fccac526522dc5fca8ecf0e62749a149f3b8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-01-02 20:30:24"
         },
         {
             "name": "symfony/http-foundation",
@@ -3354,7 +3657,9 @@
         "drupal/token": 20,
         "outlawplz/dependent_content": 20,
         "outlawplz/ckeditor_templates": 20,
-        "outlawplz/zero": 20
+        "outlawplz/droppy": 20,
+        "drupal/redirect": 20,
+        "outlawplz/svg_icon": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

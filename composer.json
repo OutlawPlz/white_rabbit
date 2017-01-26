@@ -21,9 +21,14 @@
     "drupal/token": "1.x-dev",
     "outlawplz/dependent_content": "dev-master",
     "outlawplz/ckeditor_templates": "dev-master",
-    "outlawplz/zero": "dev-master",
+    "outlawplz/zero": "v1.0.0-beta1",
     "drupal/colorbutton": "^1.0",
-    "drupal/panelbutton": "^1.0"
+    "drupal/panelbutton": "^1.0",
+    "drupal/menu_trail_by_path": "^1.0",
+    "outlawplz/droppy": "dev-master",
+    "drupal/google_analytics": "^2.1",
+    "drupal/redirect": "1.x-dev",
+    "outlawplz/svg_icon": "dev-master"
   },
   "repositories": {
     "drupal": {
