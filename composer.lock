@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "65ca5f79a5c2a329e44ce996af08b8d8",
-    "content-hash": "aa20e0dd2d936724f0b6280675d841df",
+    "hash": "60fbd699fa9e4bf5a164cc70e4541cc6",
+    "content-hash": "ae883ea333b2f5f2fc49626e7c0bded0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1775,16 +1775,16 @@
         },
         {
             "name": "outlawplz/dependent_content",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OutlawPlz/dependent_content.git",
-                "reference": "48163a55cd38eb584ddfb823ba5702bfa2f24881"
+                "reference": "bd0e349ce91756c1dc0c20c5e530467dc3e2021b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/dependent_content/zipball/48163a55cd38eb584ddfb823ba5702bfa2f24881",
-                "reference": "48163a55cd38eb584ddfb823ba5702bfa2f24881",
+                "url": "https://api.github.com/repos/OutlawPlz/dependent_content/zipball/bd0e349ce91756c1dc0c20c5e530467dc3e2021b",
+                "reference": "bd0e349ce91756c1dc0c20c5e530467dc3e2021b",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -1799,7 +1799,7 @@
                 }
             ],
             "description": "Dependent Content is a custom entity representing contents which depend upon other entities to be displayed.",
-            "time": "2016-10-20 15:43:16"
+            "time": "2017-02-01 10:05:21"
         },
         {
             "name": "outlawplz/droppy",
@@ -1831,16 +1831,16 @@
         },
         {
             "name": "outlawplz/svg_icon",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OutlawPlz/svg_icon.git",
-                "reference": "b6864d816800ae757d10b34b3222077415b09b8d"
+                "reference": "09f35b5f7524f0885c0e699c9b4c34bb5ca1ce1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/svg_icon/zipball/b6864d816800ae757d10b34b3222077415b09b8d",
-                "reference": "b6864d816800ae757d10b34b3222077415b09b8d",
+                "url": "https://api.github.com/repos/OutlawPlz/svg_icon/zipball/09f35b5f7524f0885c0e699c9b4c34bb5ca1ce1d",
+                "reference": "09f35b5f7524f0885c0e699c9b4c34bb5ca1ce1d",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -1855,20 +1855,20 @@
                 }
             ],
             "description": "Drupal 8 config entity representing an SVG sprite.",
-            "time": "2017-01-26 13:52:40"
+            "time": "2017-02-01 11:01:56"
         },
         {
             "name": "outlawplz/zero",
-            "version": "v1.0.0-beta1",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OutlawPlz/zero.git",
-                "reference": "f0c4fa458399c22ef30c3b620181d66b36a7e483"
+                "reference": "f1df87481eccf0eb30ea95948428e84326f5e539"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/zero/zipball/f0c4fa458399c22ef30c3b620181d66b36a7e483",
-                "reference": "f0c4fa458399c22ef30c3b620181d66b36a7e483",
+                "url": "https://api.github.com/repos/OutlawPlz/zero/zipball/f1df87481eccf0eb30ea95948428e84326f5e539",
+                "reference": "f1df87481eccf0eb30ea95948428e84326f5e539",
                 "shasum": ""
             },
             "require": {
@@ -1887,7 +1887,7 @@
                 }
             ],
             "description": "A flexible base theme with many regions and a responsive, mobile-first layout. It uses Gulp.js, Singularity.gs, Breakpoint-sass and many other amazing tools.",
-            "time": "2017-01-26 15:31:56"
+            "time": "2017-02-01 10:20:08"
         },
         {
             "name": "paragonie/random_compat",
@@ -3655,11 +3655,9 @@
         "drupal/inline_entity_form": 20,
         "drupal/pathauto": 20,
         "drupal/token": 20,
-        "outlawplz/dependent_content": 20,
         "outlawplz/ckeditor_templates": 20,
         "outlawplz/droppy": 20,
-        "drupal/redirect": 20,
-        "outlawplz/svg_icon": 20
+        "drupal/redirect": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
