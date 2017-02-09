@@ -1,6 +1,14 @@
 # Changelog
 
-- *26 Gen* - Added modules svg_icon.
+All notable changes to this project will be documented in this file.
 
-- *19 Gen* - Added modules menu_trail_by_path, droppy, google_analytics,
+## v0.1.1
+
+- Removed restricted_html, enable menu_trail_by_path.
+
+## v0.1.0
+
+- Added modules svg_icon.
+
+- Added modules menu_trail_by_path, droppy, google_analytics,
 redirect, panelbutton.

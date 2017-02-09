@@ -19,6 +19,7 @@ dependencies:
   - contact
   - ctools
   - menu_link_content
+  - menu_trail_by_path
   - dependent_content
   - datetime
   - block_content
