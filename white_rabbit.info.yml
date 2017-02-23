@@ -25,6 +25,7 @@ dependencies:
   - block_content
   - quickedit
   - editor
+  - flickity
   - help
   - honeypot
   - image

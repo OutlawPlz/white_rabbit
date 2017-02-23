@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - dependent_content.dependent_content_type.slide
+    - field.field.dependent_content.slide.field_background_image
+    - field.field.dependent_content.slide.field_body
+  module:
+    - text
+id: dependent_content.slide.default
+targetEntityType: dependent_content
+bundle: slide
+mode: default
+content:
+  field_body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  label:
+    label: hidden
+    type: string
+    weight: 0
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_background_image: true
+  uid: true

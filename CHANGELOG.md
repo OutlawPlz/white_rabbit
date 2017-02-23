@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 
 - Removed restricted_html, enable menu_trail_by_path.
 
+- DP slide, block slide-show configs. Added flickity module.
+
 ## v0.1.0
 
 - Added modules svg_icon.

@@ -1,0 +1,62 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - dependent_content.dependent_content_type.slide
+    - field.field.dependent_content.slide.field_background_image
+    - field.field.dependent_content.slide.field_body
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: dependent_content.slide.default
+targetEntityType: dependent_content
+bundle: slide
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+  field_background_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_body:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  label:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    weight: 4
+  uid:
+    type: entity_reference_autocomplete
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

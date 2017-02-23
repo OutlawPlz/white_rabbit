@@ -28,7 +28,8 @@
     "outlawplz/droppy": "dev-master",
     "drupal/google_analytics": "^2.1",
     "drupal/redirect": "1.x-dev",
-    "outlawplz/svg_icon": "^0.1.0"
+    "outlawplz/svg_icon": "^0.1.0",
+    "outlawplz/flickity": "^0.1.0"
   },
   "repositories": {
     "drupal": {

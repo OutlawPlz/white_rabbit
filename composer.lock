@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "60fbd699fa9e4bf5a164cc70e4541cc6",
-    "content-hash": "ae883ea333b2f5f2fc49626e7c0bded0",
+    "hash": "765407d070afb28dc3d7dc894ce66818",
+    "content-hash": "7ca140479bd5b8d777cf8961ab050863",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1004,13 +1004,13 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/inline_entity_form",
-                "reference": "8227e2879c9d4c19bf6d402cbba35d59350da56b"
+                "reference": "dbfc93fc961b3e6c84497390c62ec36d02c1c4d7"
             },
             "require": {
                 "drupal/core": "~8.0"
             },
-            "suggest": {
-                "drupal/entity_reference_revisions": "Required by drupal/inline_entity_form"
+            "require-dev": {
+                "drupal/entity_reference_revisions": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -1018,8 +1018,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha6+13-dev",
-                    "datestamp": "1476832739"
+                    "version": "8.x-1.0-beta1+2-dev",
+                    "datestamp": "1479155639"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1053,7 +1053,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/inline_entity_form"
             },
-            "time": "2016-10-18 23:16:30"
+            "time": "2016-11-14 20:32:26"
         },
         {
             "name": "drupal/linkit",
@@ -1828,6 +1828,34 @@
             ],
             "description": "Provides Droppy library integration for Drupal.",
             "time": "2017-01-16 11:43:29"
+        },
+        {
+            "name": "outlawplz/flickity",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutlawPlz/drupal_flickity.git",
+                "reference": "168b0cdc81acae1a46731c14cab06290f7620543"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutlawPlz/drupal_flickity/zipball/168b0cdc81acae1a46731c14cab06290f7620543",
+                "reference": "168b0cdc81acae1a46731c14cab06290f7620543",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Palazzo",
+                    "email": "outlaw.plz@gmail.com"
+                }
+            ],
+            "description": "Provides Flickity library integration for Drupal.",
+            "time": "2017-02-23 11:23:43"
         },
         {
             "name": "outlawplz/svg_icon",
