@@ -19,17 +19,18 @@
     "drupal/linkit": "^4.1",
     "drupal/pathauto": "1.x-dev",
     "drupal/token": "1.x-dev",
-    "outlawplz/dependent_content": "^0.1.0",
-    "outlawplz/ckeditor_templates": "dev-master",
-    "outlawplz/zero": "^0.1.0",
     "drupal/colorbutton": "^1.0",
     "drupal/panelbutton": "^1.0",
     "drupal/menu_trail_by_path": "^1.0",
-    "outlawplz/droppy": "dev-master",
     "drupal/google_analytics": "^2.1",
     "drupal/redirect": "1.x-dev",
-    "outlawplz/svg_icon": "^0.1.0",
-    "outlawplz/flickity": "^0.1.0"
+    "outlawplz/dependent_content": "^0.1.0",
+    "outlawplz/ckeditor_templates": "^0.1.0",
+    "outlawplz/zero": "^0.1.0",
+    "outlawplz/droppy": "^0.1.0",
+    "outlawplz/flickity": "^0.1.0",
+    "outlawplz/svg_sprite": "^0.1.1",
+    "outlawplz/ckeditor_template_widget": "^0.1.0"
   },
   "repositories": {
     "drupal": {

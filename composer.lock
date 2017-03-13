@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "765407d070afb28dc3d7dc894ce66818",
-    "content-hash": "7ca140479bd5b8d777cf8961ab050863",
+    "hash": "9e4876565b91a75b04b1a03e094979bc",
+    "content-hash": "9278b166187074fd3616fc699fb71241",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1746,17 +1746,45 @@
             "time": "2016-09-22 11:01:11"
         },
         {
-            "name": "outlawplz/ckeditor_templates",
-            "version": "dev-master",
+            "name": "outlawplz/ckeditor_template_widget",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/OutlawPlz/ckeditor_templates.git",
-                "reference": "6840731f1889b1378e1e852d0c5712612ff0c190"
+                "url": "https://github.com/OutlawPlz/ckeditor_template_widget.git",
+                "reference": "a2a5b78d0b2fddd5bc4e279b810f10c934906d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/ckeditor_templates/zipball/6840731f1889b1378e1e852d0c5712612ff0c190",
-                "reference": "6840731f1889b1378e1e852d0c5712612ff0c190",
+                "url": "https://api.github.com/repos/OutlawPlz/ckeditor_template_widget/zipball/a2a5b78d0b2fddd5bc4e279b810f10c934906d45",
+                "reference": "a2a5b78d0b2fddd5bc4e279b810f10c934906d45",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Palazzo",
+                    "email": "outlaw.plz@gmail.com"
+                }
+            ],
+            "description": "CKEditor plugins that convert Content Templates into Widgets for Drupal 8.",
+            "time": "2017-03-13 13:58:30"
+        },
+        {
+            "name": "outlawplz/ckeditor_templates",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutlawPlz/ckeditor_templates.git",
+                "reference": "9a4b8c6bab44ea21d964d6945c4e47902372d3d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutlawPlz/ckeditor_templates/zipball/9a4b8c6bab44ea21d964d6945c4e47902372d3d8",
+                "reference": "9a4b8c6bab44ea21d964d6945c4e47902372d3d8",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -1771,7 +1799,7 @@
                 }
             ],
             "description": "This plugin provides a dialog to offer predefined content templates - with page layout, text formatting and styles.",
-            "time": "2016-10-20 15:51:00"
+            "time": "2017-03-09 10:06:29"
         },
         {
             "name": "outlawplz/dependent_content",
@@ -1803,16 +1831,16 @@
         },
         {
             "name": "outlawplz/droppy",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OutlawPlz/drupal_droppy.git",
-                "reference": "4b791fd5ff5b1ac15521b0f41f87eb0647db9648"
+                "reference": "e8bf94d365e3eb99df2b1868f604dd119ed4df89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/drupal_droppy/zipball/4b791fd5ff5b1ac15521b0f41f87eb0647db9648",
-                "reference": "4b791fd5ff5b1ac15521b0f41f87eb0647db9648",
+                "url": "https://api.github.com/repos/OutlawPlz/drupal_droppy/zipball/e8bf94d365e3eb99df2b1868f604dd119ed4df89",
+                "reference": "e8bf94d365e3eb99df2b1868f604dd119ed4df89",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -1827,7 +1855,7 @@
                 }
             ],
             "description": "Provides Droppy library integration for Drupal.",
-            "time": "2017-01-16 11:43:29"
+            "time": "2017-02-23 15:24:39"
         },
         {
             "name": "outlawplz/flickity",
@@ -1858,17 +1886,17 @@
             "time": "2017-02-23 11:23:43"
         },
         {
-            "name": "outlawplz/svg_icon",
-            "version": "0.1.0",
+            "name": "outlawplz/svg_sprite",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/OutlawPlz/svg_icon.git",
-                "reference": "09f35b5f7524f0885c0e699c9b4c34bb5ca1ce1d"
+                "url": "https://github.com/OutlawPlz/svg_sprite.git",
+                "reference": "291cf9a9e801ae39c9b17788bba96019077b0980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/svg_icon/zipball/09f35b5f7524f0885c0e699c9b4c34bb5ca1ce1d",
-                "reference": "09f35b5f7524f0885c0e699c9b4c34bb5ca1ce1d",
+                "url": "https://api.github.com/repos/OutlawPlz/svg_sprite/zipball/291cf9a9e801ae39c9b17788bba96019077b0980",
+                "reference": "291cf9a9e801ae39c9b17788bba96019077b0980",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -1883,20 +1911,20 @@
                 }
             ],
             "description": "Drupal 8 config entity representing an SVG sprite.",
-            "time": "2017-02-01 11:01:56"
+            "time": "2017-03-09 13:05:15"
         },
         {
             "name": "outlawplz/zero",
-            "version": "0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OutlawPlz/zero.git",
-                "reference": "f1df87481eccf0eb30ea95948428e84326f5e539"
+                "reference": "434a0cbcff547fad056f9f5af838869dacfa1f0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OutlawPlz/zero/zipball/f1df87481eccf0eb30ea95948428e84326f5e539",
-                "reference": "f1df87481eccf0eb30ea95948428e84326f5e539",
+                "url": "https://api.github.com/repos/OutlawPlz/zero/zipball/434a0cbcff547fad056f9f5af838869dacfa1f0b",
+                "reference": "434a0cbcff547fad056f9f5af838869dacfa1f0b",
                 "shasum": ""
             },
             "require": {
@@ -1915,7 +1943,7 @@
                 }
             ],
             "description": "A flexible base theme with many regions and a responsive, mobile-first layout. It uses Gulp.js, Singularity.gs, Breakpoint-sass and many other amazing tools.",
-            "time": "2017-02-01 10:20:08"
+            "time": "2017-03-06 15:07:19"
         },
         {
             "name": "paragonie/random_compat",
@@ -3683,8 +3711,6 @@
         "drupal/inline_entity_form": 20,
         "drupal/pathauto": 20,
         "drupal/token": 20,
-        "outlawplz/ckeditor_templates": 20,
-        "outlawplz/droppy": 20,
         "drupal/redirect": 20
     },
     "prefer-stable": true,
